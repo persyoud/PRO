@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติวันปิยมหาราช</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&family=Charm:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --gold: #f1c40f;
+            --purple: #6a1b9a;
+            --cream: #fdf6e3;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Sarabun', sans-serif;
+            background: var(--cream);
+        }
+
+        /* Navbar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 8%;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-family: 'Charm', cursive;
+            font-size: 26px;
+            color: var(--purple);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #b08d2b;
+            font-weight: bold;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(to right, #d4a017, #f1c40f);
+            color: #4a148c;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: rgb(13, 13, 13);
+        }
+
+        /* Main */
+        .container {
+            max-width: 900px;
+            margin: -40px auto 50px;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section h2 {
+            color: var(--purple);
+            border-left: 6px solid var(--gold);
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        /* Button */
+        .btn-back {
+            display: inline-block;
+            margin-top: 25px;
+            background: var(--purple);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-back:hover {
+            background: var(--gold);
+            color: #333;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--purple);
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            .container {
+                margin: -30px 15px 40px;
+                padding: 25px;
+            }
+        }
+
+            .section-img {
+                width: 100%;
+                max-width: 500px;
+                display: block;
+                margin: 15px auto 20px;
+
+                border-radius: 15px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+
+            /* Header Background Image */
+            .hero-header {
+                background-image: url(CODE-EGN1008/IMG/ลายไทย.jpg);
+                background-size: cover;       /* ให้รูปเต็มจอ */
+                background-position: center;  /* จัดรูปกลาง */
+                background-repeat: no-repeat;
+
+                color: rgb(13, 13, 13);
+                text-align: center;
+                padding: 100px 20px;
+
+                position: relative;
+            }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="index.html" class="logo">วันปิยมหาราช</a>
+    <a href="index.html">← กลับหน้าแรก</a>
+</nav>
+
+<!-- Header -->
+<header class="hero-header">
+    <h1>ประวัติวันปิยมหาราช</h1>
+    <p>น้อมรำลึกถึงพระมหากรุณาธิคุณ รัชกาลที่ ๕</p>
+</header>
+
+<!-- Content -->
+<div class="container">
+
+    <div class="section">
+        <h2>พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว</h2>
+        <p>
+            พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว 
+            ทรงเป็นพระมหากษัตริย์รัชกาลที่ ๕ แห่งราชวงศ์จักรี 
+            เสด็จขึ้นครองราชย์เมื่อ พ.ศ. ๒๔๑๑ 
+            ทรงมีพระปรีชาสามารถในการบริหารประเทศ
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>การเลิกทาส</h2>
+        <p>
+            พระองค์ทรงเล็งเห็นถึงความสำคัญของศักดิ์ศรีความเป็นมนุษย์
+            จึงทรงประกาศเลิกทาสอย่างค่อยเป็นค่อยไป
+            โดยไม่ก่อให้เกิดความขัดแย้งในสังคม
+        </p>
+        <img src="CODE-EGN1008/IMG/เลิกทาส2.png" class="section-img" alt="การเลิกทาส">
+    </div>
+
+    <div class="section">
+        <h2>การพัฒนาประเทศ</h2>
+        <p>
+            ในรัชสมัยของพระองค์ ได้มีการพัฒนาด้านคมนาคม
+            การศึกษา การสาธารณสุข และการปกครอง
+            ทำให้ประเทศไทยมีความเจริญก้าวหน้า
+        </p>
+        <img src="CODE-EGN1008/IMG/การพัฒนาประเทศ.jpg" class="section-img" alt="การเลิกทาส">
+    </div>
+
+    <div class="section">
+        <h2>วันปิยมหาราช</h2>
+        <p>
+            วันที่ ๒๓ ตุลาคม ของทุกปี
+            เป็นวันที่ประชาชนชาวไทยพร้อมใจกัน
+            น้อมรำลึกถึงพระมหากรุณาธิคุณ
+            ของพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว
+        </p>
+        <img src="CODE-EGN1008/IMG/น้อมรำลึก.jpg" class="section-img" alt="การเลิกทาส">
+    </div>
+
+    <center>
+        <a href="index.html" class="btn-back">กลับสู่หน้าแรก</a>
+    </center>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>๒๓ ตุลาคม วันปิยมหาราช</p>
+    <p>ข้อมูลเพื่อการศึกษา | โดยนายสมรภูมิ เชื้อบุญมีและเพื่อนรัก</p>
+</footer>
+
+</body>
+</html>
